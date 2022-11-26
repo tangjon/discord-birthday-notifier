@@ -1,0 +1,2 @@
+0 7 * * * python /usr/src/app/src/main.py >> logfile.txt
+# new line. time is in UTC
