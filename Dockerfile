@@ -15,5 +15,6 @@ RUN /usr/bin/crontab /etc/cron.d/crontab
 
 RUN apk add bash
 RUN apk add vim
+RUN apk add git
 
 CMD ["crond", "-f"]
